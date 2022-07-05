@@ -1,0 +1,64 @@
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.all__messages {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  background-color: white;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.message__top {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message__bottom {
+  padding: 0 20px 40px;
+}
+
+.deleteButton {
+  color: red;
+  padding: 0 20px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.all__messages input {
+  height: 40px;
+  width: 200px;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+.all__messages input:focus {
+  outline: none;
+}
+
+#signin_button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(40, 124, 220);
+  color: white;
+  cursor: pointer;
+}
